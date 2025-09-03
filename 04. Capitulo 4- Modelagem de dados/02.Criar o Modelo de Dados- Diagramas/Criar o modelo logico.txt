@@ -1,0 +1,2 @@
+Criar o modelo logico usando o site 
+https://www.dbdesigner.net/

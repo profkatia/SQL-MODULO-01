@@ -1,0 +1,11 @@
+('Léo',30,5000.50,1.83,64, 'leo@email.com'),
+('Juca',40,2000.50,1.66,78,'juca@email.com'),
+('Maria',20,3000.50,1.45,98,'maria@email.com'),
+('Pedro',34,4000.50,1.87,89,'pedro@email.com'),
+('Afonso',45,4000.50,1.34,78,'afonso@email.com'),
+('Luana',65,2000.50,1.87,77,'luana@email.com'),
+('Jéssica',87,8000.50,1.90,98,'jess@email.com'),
+('Julieta',66,5000.50,1.94,88,'ju@email.com'),
+('Roberto',45,10000.50,1.64,87,'roberto@email.com'),
+('Jubileu',68,7000.50,1.86,67,'jubileu@email.com'),
+('Yasmin',79,9000.50,1.88,68,'yas@email.com');

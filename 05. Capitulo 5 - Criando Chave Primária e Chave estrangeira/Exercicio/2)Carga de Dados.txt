@@ -1,0 +1,44 @@
+--Inserir Dados na Tabela tb_produtos
+
+
+INSERT INTO tb_produtos (id_produto, nome_produto, preco, estoque) VALUES
+(1, 'Laptop Gamer X', 7500.00, 50),
+(2, 'Mouse Óptico Pro', 150.00, 200),
+(3, 'Teclado Mecânico RGB', 400.00, 100),
+(4, 'Monitor Ultra Wide 34"', 2800.00, 30),
+(5, 'Webcam HD 1080p', 250.00, 120);
+
+
+
+--Inserir Dados na Tabela tb_clientes
+
+INSERT INTO tb_produtos (id_produto, nome_produto, preco, estoque) VALUES
+(1, 'Laptop Gamer X', 7500.00, 50),
+(2, 'Mouse Óptico Pro', 150.00, 200),
+(3, 'Teclado Mecânico RGB', 400.00, 100),
+(4, 'Monitor Ultra Wide 34"', 2800.00, 30),
+(5, 'Webcam HD 1080p', 250.00, 120);
+
+
+
+--inserir Dados na Tabela tb_funcionarios
+
+INSERT INTO tb_clientes (id_cliente, nome, email, cidade) VALUES
+(101, 'Ana Silva', 'ana.silva@email.com', 'São Paulo'),
+(102, 'Bruno Costa', 'bruno.costa@email.com', 'Rio de Janeiro'),
+(103, 'Carla Dias', 'carla.dias@email.com', 'Belo Horizonte'),
+(104, 'Daniel Alves', 'daniel.alves@email.com', 'São Paulo'),
+(105, 'Elisa Pereira', 'elisa.pereira@email.com', 'Curitiba');
+
+
+--inserir Dados na Tabela tb_vendas
+
+INSERT INTO tb_vendas (id_venda, data_venda, id_produto, id_cliente, id_funcionario, quantidade, valor_total) VALUES
+(1001, '2024-06-15', 1, 101, 2, 1, 7500.00),
+(1002, '2024-06-15', 2, 101, 2, 2, 300.00),
+(1003, '2024-06-16', 3, 102, 3, 1, 400.00),
+(1004, '2024-06-17', 1, 103, 1, 1, 7500.00),
+(1005, '2024-06-17', 4, 104, 2, 1, 2800.00),
+(1006, '2024-06-18', 5, 105, 3, 3, 750.00),
+(1007, '2024-06-19', 2, 102, 2, 1, 150.00),
+(1008, '2024-06-20', 3, 104, 1, 2, 800.00);
